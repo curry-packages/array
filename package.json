@@ -2,7 +2,7 @@
     "name": "array",
     "version": "0.0.1",
     "author": "Bernd Brassel <bbr@informatik.uni-kiel.de>, Frank Huch <fhu@informatik.uni-kiel.de>",
-    "synopsis": "An implementation of arrays with Braun trees",
+    "synopsis": "An implementation of arrays with Braun trees.",
     "category": [ "Data" ],
     "license": "BSD-3-Clause",
     "licenseFile": "LICENSE",
