@@ -1,9 +1,10 @@
 -- A few auxiliary functions to formulate tests with random numbers.
 module RandomTest ( test, eq ) where
 
-import Random
 import List ( nub )
 import Test.EasyCheck
+
+import System.Random
 
 --- Tests a given predicate on a list of distinct random numbers.
 --- In case of a failure, the list of random numbers is returned
