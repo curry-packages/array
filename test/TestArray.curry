@@ -1,6 +1,5 @@
-import Integer
-import List(nub)
-import Maybe
+import Data.List ( nub )
+import Data.Maybe
 
 import Test.Prop
 import System.Random

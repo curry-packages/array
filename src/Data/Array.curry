@@ -1,25 +1,23 @@
+------------------------------------------------------------------------------
 --- Implementation of Arrays with Braun Trees. Conceptually, Braun trees
 --- are always infinite. Consequently, there is no test on emptiness.
 ---
 --- @authors {bbr, fhu}@informatik.uni-kiel.de
---- @category algorithm
+--- @version December 2020
+------------------------------------------------------------------------------
 
 module Data.Array 
-  (Array,
+  ( Array,
 
-   emptyErrorArray, emptyDefaultArray,
-   listToDefaultArray,listToErrorArray,
+    emptyErrorArray, emptyDefaultArray,
+    listToDefaultArray,listToErrorArray,
 
-   (//), update, applyAt,
+    (//), update, applyAt,
 
-   (!),
+    (!),
 
-   combine, combineSimilar)
-
-  where 
-
-
-import Integer
+    combine, combineSimilar
+  ) where 
 
 infixl 9  !, //
 
