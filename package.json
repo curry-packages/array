@@ -17,7 +17,7 @@
         "modules": [ "TestArray" ]
     },
     "source": {
-      "git": "https://git.ps.informatik.uni-kiel.de/curry-packages/array.git",
+      "git": "https://github.com/curry-packages/array.git",
       "tag": "$version"
     }
 }
